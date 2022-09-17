@@ -6,5 +6,5 @@
 
 | Propiedad     | Descripcion   |sintaxis   |
 | ------------- |:-------------:| :--------:|
-| Display Flex  | Esta propiedad hace que cambien las reglas con las cuales sus hijos van a ser representados en la página.        | 2         |
-| Mouse         | 10.33         | 1         |
+| Display Flex  | Esta propiedad hace que cambien las reglas con las cuales sus hijos van a ser representados en la página.| displax: flex;         |
+|Display inline-flex| Inline-flex es como si tuviéramos un elemento inline-block, donde sus hijos se comportan con las reglas de Flexbox.| display: inline-flex;|
