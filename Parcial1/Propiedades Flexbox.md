@@ -38,3 +38,25 @@ Esta propiedad no aporta nada nuevo, pues simplemente es un atajo para escribir 
 | Center       | los elementos se centran en el espacio del contenedor, siempre con respecto al eje principal.     |
 | Space-Between        |hace que los elementos se distribuyan con un espacio proporcional entre ellos, siendo que los ítem de los extremos se sitúan en el borde del contenedor.|
 | Space-Around       | es parecido a space-between en el sentido de dejar un espaciado proporcional, sin embargo, en esta ocasión se deja también espacio entre el borde del contenedor y los ítem de los extremos.    |
+
+<h3> Propiedad Aling-Items </h3>
+
+| Propiedad      | Descripcion         |
+| ------------- |:-------------:|
+| Flex-Start       | Indica que se posicionarán al comienzo del eje secundario.|
+| Flex-End        |Se posicionarán al final del eje secundario.|
+| Center       | se posicionarán en el centro del eje secundario.|
+| Stretch        |Ocuparán el tamaño total del eje secundario. |
+| Baseline      | Para el posicionamiento de los elementos se tendrá en cuenta el texto que hay escrito dentro.|
+
+
+<h3> Propiedad Aling-Content </h3>
+
+| Propiedad      | Descripcion         |
+| ------------- |:-------------:|
+| Flex-Start       | Indica que las filas se colocarán todas pegadas entre sí (obviamente no aparecerán exactamente pegadas si le hemos colocado un margin), desde el inicio del eje secundario.|
+| Flex-End        |Las filas se colocarán pegadas entre sí, pero esta vez pegadas al final del eje secundario.|
+| Center       | Se posicionarán en el centro del eje secundario, pegadas entre sí.|
+| Stretch        |Sus dimensiones crecerán para ocupar todo el espacio disponible (a no ser que se haya colocado una dimensión diferente en los elementos).|
+| Space-Between      | Indica que las filas se separarán entre sí, dejando un espacio proporcional entre ellas.|
+| Space-Around      | Indica que las filas se separarán, dejando un espacio entre ellas proporcional, también con el borde.|
