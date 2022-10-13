@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "Registro Eventos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="caja1" class="caja">caja 1</div>
+        <div id="caja2" class="caja">caja 2</div>
+        <div id="caja3" class="caja">caja 3</div>
+        <div id="caja4" class="caja">caja 4</div>
+        <div id="caja5" class="caja">caja 5</div>
+    </div>
+    <script>
+        document.querySelector('#caja1').addEventListener("click", miFuncion1);
+        document.querySelector('#caja2').addEventListener("click", miFuncion2);
+        document.querySelector('#caja3').addEventListener("click", miFuncion3);
+        document.querySelector('#caja4').addEventListener("click", miFuncion4);
+        document.querySelector('#caja5').addEventListener("click", miFuncion5);
+
+        function miFuncion1() {alert("Click en boton 1 / Funcion1");}
+        function miFuncion2() {alert("Click en boton 2 / Funcion2");}
+        function miFuncion3() {alert("Click en boton 3 / Funcion3");}
+        function miFuncion4() {alert("Click en boton 4 / Funcion4");}
+        function miFuncion5() {alert("Click en boton 5 / Funcion5");}
+    </script>
+</body>
+</html>
