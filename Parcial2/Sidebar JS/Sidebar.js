@@ -1,8 +1,7 @@
-window.onload = function()
-{
-    document.getElementById("cont-menu").addEventListener("Click",function(){
-    console.log("Se a detectado el click")
-    console.log(document.getElementsByClassName("btnMenu"));
-    //document.getElementsByClassName("cont-menu").classList.togle("escondido");
-    })
-}
+const boton = document.querySelector('.toggle-btn');
+
+boton.addEventListener('click', function () {
+  console.log('clik')
+  document.getElementById('container').classList.toggle('clickdetectado');
+  console.log(document.getElementById('container'))
+});
