@@ -9,7 +9,7 @@
   <body>
     <h1>Razas de Perros</h1>
 
-    <form>
+    <form id="Form">
         <div class="row">
             <div class="from-group col-sm-12 col-md-4 col-lg-2">
                 <label for="idClin" class="form-label">Razas</label>
@@ -118,18 +118,26 @@ if (toastTrigger) {
     </script>
 
     <script>
-      document.getElementById("Submit").addEventListener("click",() =>
-      {
-        fetch('Formulario.php')
-        .then(respuesta => respuesta.json())
-        .then(dato => refrescar(dato));
+      //document.getElementById("Submit").addEventListener("click",() =>
+      //{
+        //fetch('Formulario.php')
+        //.then(respuesta => respuesta.json())
+        //.then(dato => refrescar(dato));
 
-        function refrescar(reg)
-        {
-          document.getElementById("idRazas").value = reg.id;
-          document.getElementById("idEdad").value = reg.Nombre;
-        }
-      });
+        //function refrescar(reg)
+        //{
+          //document.getElementById("idRazas").value = reg.id;
+          //document.getElementById("idEdad").value = reg.Nombre;
+        //}
+      //});
+    </script>
+
+    <script>
+      document.getElementById("Regreistrar").addEventListener("click",async () =>
+      {
+        var datosFormulario = new FormData(document.getElementById("Form"));
+        let respuesta = await fetch ('Formulario.php')
+      })
     </script>
   </body>
 </html>
